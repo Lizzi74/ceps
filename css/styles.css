@@ -1,0 +1,391 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Proxima-Nova';
+  font-weight: normal;
+  font-size: 14px;
+  color: #212121;
+}
+
+#map {
+  border: 1px solid black;
+  width: 400px;
+  height: 500px;
+  margin: 100px 20px 50px 50px;
+
+}
+
+.contactext {
+  width: 600px;
+  margin: 100px 100px 50px 0px;
+}
+
+.via {
+  font-size: 20px;
+  font-family: "Proxima-Nova";
+
+}
+
+.subtext {
+  font-size: 16px;
+  font-family: "Proxima-Nova";
+
+}
+
+.container {
+  overflow: auto;
+  width: 100%;
+
+}
+
+.header {
+    width: 100%;
+    z-index: 10;
+    font-size: 15px;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.headerpages {
+    width: 100%;
+    z-index: 10;
+    font-size: 15px;
+    position: absolute;
+    top: 0;
+    background-color: black;
+}
+
+.header nav {
+  float: right;
+  overflow: auto;
+
+}
+
+.headerpages nav {
+  float: right;
+  overflow: auto;
+
+}
+
+.header nav li {
+  display: inline;
+  padding: 20px 15px 20px 15px;
+
+}
+
+.headerpages nav li {
+  display: inline;
+  padding: 20px 15px 20px 15px;
+
+}
+
+.header nav a {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+
+}
+
+.headerpages nav a {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+
+}
+
+.logo {
+  float: left;
+  clear: right;
+
+}
+
+ul {
+  list-style-type: none;
+
+}
+
+.menu {
+  opacity: 0.0;
+
+    }
+
+#videoText {
+    position: absolute;
+    top: 37%;
+    color: white;
+    text-align: center;
+    width: 100%;
+
+}
+
+#tagline {
+    
+    font-size: 70px;
+    margin: 0 10%;
+    font-weight: 100;
+}
+
+.tag2 {
+  
+  text-align: center;
+  background-color: #EEEEEE;
+  padding: 20px 60px;
+
+}
+
+#amici {
+  margin-left: 80px;
+  font-size: 20px;
+  font-color: #9E9E9E
+
+}
+
+
+@media (min-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    height: 300%;
+    top: -100%;
+
+  }
+}
+
+#content {
+  padding: 20px 30px 40px 30px;
+  width: 100%;
+
+}
+
+.left {
+
+  float: left;
+}
+
+.right {
+  float: right;
+
+}
+
+.contentblocks {
+  width: 60%;
+  margin-bottom: 5em;
+
+}
+
+.block {
+  margin-left: 3em;
+  overflow: hidden;
+  
+}
+
+img {
+  float: left;
+  padding: 10px 10px 10px 0px;
+}
+
+.sidecontainer {
+  width: 40%;
+  padding-left: 20px;
+
+  }
+
+.footer {
+  background-color: black;
+  padding: 30px 20px 30px 20px;
+  margin: 0;
+  float: left;
+  width: 100%;
+
+}
+
+.wrapper {
+  float: left;
+  color: white;
+  margin: 50px;
+
+}
+
+.social {
+  width: 550px;
+  margin-top: 2em;
+  float: right;
+  display: block;
+
+}
+
+form {
+  display: block;
+  float: left;
+  clear: right;
+
+ }
+
+ .signupform {
+  padding-top: 0.2em;
+ 
+ }
+
+.social a {
+  float: right;
+  padding-left: 10px;
+  display: block;
+
+}
+
+ input[type="submit"] {
+    border: 2px solid #9E9E9E;
+    background-color: transparent;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    color: #9E9E9E;
+    padding: 10px 16px;
+    margin-top: 15px;
+    margin-right: 10px;
+
+ }
+
+ @media only screen and (max-width: 480px) {
+
+    nav {
+      display: none;
+
+    }
+
+    .menu {
+      opacity: 1;
+      color: white;
+      float: right;
+      margin-bottom: 1em;
+      margin-right: 1em;
+      font-size: 2em;
+      
+    }
+
+    #tagline {
+      width: 100%;
+      height: 60%; 
+      font-size: 4em; 
+      margin: 0;
+    }
+
+    .tag2 {
+      padding: 0.5em;
+
+    }
+
+    #amici {
+      font-size: 1em;
+
+    }
+
+    .container {
+      overflow: hidden;
+      width: 100%;
+
+    }
+
+    .video {
+      background: url("images/Chiara_dance.png");
+
+    }
+    .contentblocks {
+      overflow: auto;
+      padding: 2% 3%;
+      width: 100%;
+      float: left;
+      margin: 0;
+
+    }
+
+    .block {
+      float: left;
+      width: 100%;
+      padding: 2% 3%;
+      margin: 0;
+    }
+
+    .sidecontainer {
+      float: left;
+      width: 100%;
+      padding: 2% 3%;
+
+    }
+
+    .social {
+      width: 100%;
+      float: left;
+      margin-top: 0.5em;
+
+    }
+
+    .icons {
+      float: right;
+
+    }
+
+    .forms {
+      padding: 0;
+      float: right;
+
+    }
+
+    .wrapper {
+      width: 100%;
+      float: right;
+      margin: 1em;
+      padding-left: 9em;
+
+    }
+
+    .maphalf {
+      width: 100%;
+      float: left;
+
+    }
+
+    #map {
+      margin: 5 0.5 0.5 0.5em;
+      float: left;
+      width: 80%;
+
+    }
+
+    .contactext {
+      width: 100%;
+      float: left;
+      margin: 1em;
+    }
+
+    .footer {
+      padding: 2em;
+    }
+
+
+/*@media (max-aspect-ratio: 16/9) {
+  .fullscreen-bg__video {
+    width: 300%;
+    left: -100%;
+  }
+}*/
+
+/*@media (max-width: 480px) {
+  .fullscreen-bg {
+    background: url('../img/videoframe.jpg') center center / cover no-repeat;
+  }
+
+  .fullscreen-bg__video {
+    display: none;
+  }
+}*/
+
